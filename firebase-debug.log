@@ -1,0 +1,125 @@
+[debug] [2018-07-17T08:39:14.315Z] ----------------------------------------------------------------------
+[debug] [2018-07-17T08:39:14.319Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Kernel-2018\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-07-17T08:39:14.319Z] CLI Version:   3.19.3
+[debug] [2018-07-17T08:39:14.319Z] Platform:      win32
+[debug] [2018-07-17T08:39:14.319Z] Node Version:  v8.11.3
+[debug] [2018-07-17T08:39:14.320Z] Time:          Tue Jul 17 2018 03:39:14 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-07-17T08:39:14.320Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-17T08:39:14.349Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-07-17T08:39:14.350Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  Y:\ANGULAR-CHAT-FIREBASE-SO\chatangular
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-07-17T08:39:28.583Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-17T08:39:28.584Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/LGh_vYCdtpoxXeLR3Ud_EzyXLCdOLSsk3koZ8dH_Hao',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jul 17 2018 03:39:28 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-07-17T08:39:28.967Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-17T08:39:29.132Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Tue Jul 17 2018 03:39:29 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-07-17T08:39:30.030Z] <<< HTTP RESPONSE 200
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2018-07-17T08:40:46.667Z] >>> HTTP REQUEST GET https://angularfirebasechat-e2505.firebaseio.com/.settings/rules.json  
+  
+ Tue Jul 17 2018 03:40:46 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-07-17T08:40:47.243Z] <<< HTTP RESPONSE 200
+[info] +  Database Rules for angularfirebasechat-e2505 have been downloaded to database.rules.json.
+[info] Future modifications to database.rules.json will update Database Rules when you run
+[info] firebase deploy.
+[info] 
+=== Firestore Setup
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[info] 
+=== Functions Setup
+[info] 
+[info] A functions directory will be created in your project with a Node.js
+[info] package pre-configured. Functions can be deployed with firebase deploy.
+[info] 
+[debug] [2018-07-17T08:40:54.573Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-17T08:40:54.575Z] > authorizing via signed-in user
+[debug] [2018-07-17T08:40:54.576Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-17T08:40:54.576Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/LGh_vYCdtpoxXeLR3Ud_EzyXLCdOLSsk3koZ8dH_Hao',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jul 17 2018 03:40:54 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-07-17T08:40:54.752Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-17T08:40:54.858Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/angularfirebasechat-e2505  
+  
+ Tue Jul 17 2018 03:40:54 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-07-17T08:40:55.278Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-17T08:40:55.279Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/angularfirebasechat-e2505/tokens  
+  
+ Tue Jul 17 2018 03:40:55 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-07-17T08:40:55.825Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-17T08:40:55.832Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/angularfirebasechat-e2505?updateMask=usageSettings  
+ { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
+ Tue Jul 17 2018 03:40:55 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-07-17T08:40:55.834Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/angularfirebasechat-e2505?updateMask=usageSettings  
+ { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
+ Tue Jul 17 2018 03:40:55 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-07-17T08:40:57.361Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-17T08:40:57.780Z] <<< HTTP RESPONSE 200
+[info] +  Wrote functions/package.json
+[info] +  Wrote functions/tslint.json
+[info] +  Wrote functions/tsconfig.json
+[info] +  Wrote functions/src/index.ts
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2018-07-17T08:45:58.762Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+  
+ Tue Jul 17 2018 03:45:58 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-07-17T08:45:58.999Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-17T08:45:59.660Z] Error: ENOENT: no such file or directory, open 'Y:\ANGULAR-CHAT-FIREBASE-SO\chatangular\y\index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.writeFileSync (fs.js:1299:33)
+    at Object.createFileSync (C:\Users\Kernel-2018\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\Kernel-2018\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:194:6)
+    at C:\Users\Kernel-2018\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:214:12
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[error] 
+[error] Error: An unexpected error has occurred.

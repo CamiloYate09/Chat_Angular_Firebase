@@ -1,0 +1,100 @@
+
+@https://angular.io/guide/quickstart
+
+
+Angular CLI: 6.0.8
+Node: 8.11.3
+OS: win32 x64
+Angular:
+...
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.6.8
+@angular-devkit/core         0.6.8
+@angular-devkit/schematics   0.6.8
+@schematics/angular          0.6.8
+@schematics/update           0.6.8
+rxjs                         6.2.2
+typescript                   2.7.2
+
+
+**********************************************************
+
+https://github.com/angular/angularfire2
+
+
+********************************************
+firebase
+angularfirebasechat
+
+id = angularfirebasechat-e2505
+
+https://console.firebase.google.com/u/1/project/angularfirebasechat-e2505/overview
+
+*************************************************
+
+Boostrap
+https://www.npmjs.com/package/angular-ui-bootstrap
+
+*npm install angular-ui-bootstrap
+
+**********************************************
+Pasos  de intalacion para esta libreria
+
+https://github.com/angular/angularfire2/blob/master/docs/install-and-setup.md
+
+npm install angularfire2 firebase --save
+
+*/src/environments/environment.ts
+
+  firebase: {
+    apiKey: '<your-key>',
+    authDomain: '<your-project-authdomain>',
+    databaseURL: '<your-database-URL>',
+    projectId: '<your-project-id>',
+    storageBucket: '<your-storage-bucket>',
+    messagingSenderId: '<your-messaging-sender-id>'
+  }
+
+
+  ////
+
+  /src/app/app.module.ts
+
+
+
+
+***********************************************
+
+SOLUCIONAR ERRORES
+https://www.campusmvp.es/recursos/post/truco-actualizar-a-la-ultima-las-versiones-de-dependencias-npm-en-package-json.aspx
+
+**********************************************
+CREANDO EL COMPONENETE DE CHAT
+
+*ng g c componenet/chat --is --spec=false
+
+**************************************************
+
+solucion a map()
+https://stackoverflow.com/questions/36947748/angular-2-beta-17-property-map-does-not-exist-on-type-observableresponse
+
+
+*************************************************
+Authenticate users
+Getting started with Firebase Authentication
+
+https://github.com/angular/angularfire2/blob/master/docs/auth/getting-started.md
+
+
+********************************************
+
+AUTENTICACION CON OTRAS PLATAFORMAS
+
+https://firebase.google.com/docs/auth/web/twitter-login?authuser=1
+
+
+
+
+
