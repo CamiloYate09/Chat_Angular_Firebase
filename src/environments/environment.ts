@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
+  production: true,
   //1---Conexion con firebase
 
   //https://console.firebase.google.com/u/1/project/angularfirebasechat-e2505/overview

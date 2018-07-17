@@ -94,7 +94,20 @@ AUTENTICACION CON OTRAS PLATAFORMAS
 
 https://firebase.google.com/docs/auth/web/twitter-login?authuser=1
 
+************************************************
 
+DEPLOY EN  now sh
+http://autcoding.com/deploying-angular-cli-projects-to-now/
+
+se cambia
+
+    "start": "ng serve",
+    "build": "ng build",
+
+    por
+
+    "start": "serve dist/ --single",
+    "build": "ng build --prod",
 
 
 
